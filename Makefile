@@ -7,7 +7,7 @@ all: test-unit run
 .PHONY: gen-openapi
 gen-openapi:
 	oapi-codegen --generate types,chi-server,spec -o internal/server/http_server/http_server.gen.go --package http_server api/openapi/api.yml
-	echo "var api_spec =" > api/openapi/api.json.js &&  yq eval -o=j api/openapi/api.yml >> api/openapi/api.json.js 
+	echo "var api_spec =" > api/openapi/api.json.js && yq eval -o=j api/openapi/api.yml >> api/openapi/api.json.js 
 
 ## MacOS
 # brew install protobuf

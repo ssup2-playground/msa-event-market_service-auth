@@ -3,7 +3,7 @@
 service-auth is the service responsible for user management and authentication/authorization in the [msa-event-market](https://github.com/ssup2-playground/project_msa-event-market) Project. service-auth follows this [considerations](https://github.com/ssup2-playground/project_msa-event-market?tab=readme-ov-file#service-considerations)
 
 * [Architecture](https://drive.google.com/file/d/1_2_5P5s8PRkz9UNM-2COEvP5OEXk-5Zu/view?usp=sharing)
-* [Swagger](https://github.com/ssup2-playground/msa-event-market_service-auth/msa-event-market/api/openapi/swagger.html)
+* [Swagger](https://github.com/ssup2-playground/msa-event-market_service-auth/api/openapi/swagger.html)
 * [ER Diagram](https://drive.google.com/file/d/17gR4NP3bFl21aqhpr3PnhRePQTzafZoY/view?usp=sharing)
 
 ## Authentication/Authorization
@@ -14,20 +14,20 @@ In JWT token contains the following information.
 
 * User ID (UUID)
 * Login ID
-* Role (admin or user)
+* Role (admin, user)
 
 ## Used main external packages and tools
 
 service-auth uses following external packages and tools.
 
-* **HTTP Server, Middleware** - [chi](https://github.com/go-chi/chi), [HTTP](https://pkg.go.dev/net/http), [oapi-codegen](https://github.com/deepmap/oapi-codegen)
-* **GRPC Server, Intercepter** - [grpc](https://pkg.go.dev/google.golang.org/grpc), [protoc-gen-go](https://pkg.go.dev/github.com/golang/protobuf/protoc-gen-go)
-* **MySQL** - [GORM](https://gorm.io/index.html)
-* **Kafka** - [kafka-go](https://github.com/segmentio/kafka-go), [Debezium Outbox](https://debezium.io/documentation/reference/1.8/transformations/outbox-event-router.html)
-* **Authorziation** - [Casbin](https://casbin.org/)
-* **Logging, Tracking** - [zerolog](https://github.com/rs/zerolog), [Istio](https://istio.io/), [OpenTracing](https://opentracing.io/), [Jaeger](https://www.jaegertracing.io/)
-* **Continuous Integration** - [Testify](https://github.com/stretchr/testify), [sqlmock](https://github.com/DATA-DOG/go-sqlmock), [Mockery](https://github.com/mockery/mockery), [Github Actions](https://github.com/features/actions)
-* **Continuous Deployment** - [K8s](https://kubernetes.io/), [ArgoCD](https://argo-cd.readthedocs.io/en/stable/), [ArgoCD Image Updater](https://github.com/argoproj-labs/argocd-image-updater), [Kustomize](https://kustomize.io/)
+* **HTTP Server, Middleware** : [chi](https://github.com/go-chi/chi), [HTTP](https://pkg.go.dev/net/http), [oapi-codegen](https://github.com/deepmap/oapi-codegen)
+* **GRPC Server, Intercepter** : [grpc](https://pkg.go.dev/google.golang.org/grpc), [protoc-gen-go](https://pkg.go.dev/github.com/golang/protobuf/protoc-gen-go)
+* **MySQL** : [GORM](https://gorm.io/index.html)
+* **Kafka** : [kafka-go](https://github.com/segmentio/kafka-go), [Debezium Outbox](https://debezium.io/documentation/reference/1.8/transformations/outbox-event-router.html)
+* **Authorziation** : [Casbin](https://casbin.org/)
+* **Logging, Tracking** : [zerolog](https://github.com/rs/zerolog), [Istio](https://istio.io/), [OpenTracing](https://opentracing.io/), [Jaeger](https://www.jaegertracing.io/)
+* **Continuous Integration** : [Testify](https://github.com/stretchr/testify), [sqlmock](https://github.com/DATA-DOG/go-sqlmock), [Mockery](https://github.com/mockery/mockery), [Github Actions](https://github.com/features/actions)
+* **Continuous Deployment** : [K8s](https://kubernetes.io/), [ArgoCD](https://argo-cd.readthedocs.io/en/stable/), [ArgoCD Image Updater](https://github.com/argoproj-labs/argocd-image-updater), [Kustomize](https://kustomize.io/)
 
 ## Development Environment
 
