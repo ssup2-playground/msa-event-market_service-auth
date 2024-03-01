@@ -2,9 +2,11 @@
 
 service-auth is the service responsible for user management and authentication/authorization in the [msa-event-market](https://github.com/ssup2-playground/project_msa-event-market) Project. service-auth follows this [considerations](https://github.com/ssup2-playground/project_msa-event-market?tab=readme-ov-file#service-considerations)
 
-* [Architecture](https://drive.google.com/file/d/1_2_5P5s8PRkz9UNM-2COEvP5OEXk-5Zu/view?usp=sharing)
-* [Swagger](https://github.com/ssup2-playground/msa-event-market_service-auth/api/openapi/swagger.html)
-* [ER Diagram](https://drive.google.com/file/d/17gR4NP3bFl21aqhpr3PnhRePQTzafZoY/view?usp=sharing)
+* Architecture
+
+* ER Diagram
+
+* [Swagger](https://ssup2-playground.github.io/msa-event-market_service-auth/api/openapi/swagger.html)
 
 ## Authentication/Authorization
 
