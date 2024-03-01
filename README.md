@@ -10,7 +10,7 @@ service-auth is the service responsible for user management and authentication/a
 
 <img src="/images/er-diagram.png" width="700"/>
 
-* [Swagger](https://ssup2-playground.github.io/msa-event-market_service-auth/api/openapi/swagger.html)
+* Swagger : https://ssup2-playground.github.io/msa-event-market_service-auth/api/openapi/swagger.html
 
 ## Authentication/Authorization
 
