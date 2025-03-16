@@ -21,7 +21,7 @@ jobs:
     - name: Prepare
       id: prepare
       run: |
-        DOCKER_IMAGE=ghcr.io/ssup2-playground/msa-event_market-service-auth
+        DOCKER_IMAGE=ghcr.io/ssup2-playground/msa-event-market_market-service-auth
         DOCKER_PLATFORMS=linux/amd64,linux/arm64
 
         VERSION=""
